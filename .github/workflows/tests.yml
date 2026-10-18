@@ -1,0 +1,29 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Le script publié correspond aux sources
+        run: |
+          node build.mjs
+          git diff --exit-code -- "Cuisine 180.js"
+      - name: Calculs, Raccourcis, widgets, page, recettes
+        run: node test/simulateur.mjs
+      - name: Protéines et calories des recettes
+        run: node test/nutrition.mjs
+      - name: Widgets (toutes les tailles)
+        run: |
+          for f in small medium large accessoryRectangular accessoryInline accessoryCircular; do
+            echo "::group::$f"
+            node test/simulateur.mjs widget-$f
+            echo "::endgroup::"
+          done
