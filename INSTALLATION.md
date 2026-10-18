@@ -5,9 +5,13 @@ sur l'iPhone).
 
 ## 1. Le script
 
-1. Depuis le PC, copie `Cuisine 180.js` dans **iCloud Drive › Scriptable**
+1. Télécharge le script depuis la [dernière version](https://github.com/theoblondel/kaury-cuisine/releases/latest)
+   (`Cuisine.180.js` : GitHub remplace l'espace par un point) et mets-le dans
+   **iCloud Drive › Scriptable**, depuis l'iPhone (Partager › Enregistrer dans
+   Fichiers) ou depuis le PC
    (par iCloud pour Windows ou icloud.com › Drive).
-2. Ouvre Scriptable sur l'iPhone : « Cuisine 180 » apparaît dans la liste.
+2. Ouvre Scriptable sur l'iPhone : « Cuisine.180 » apparaît dans la liste
+   (appui long › Renommer pour l'appeler « Cuisine 180 », si tu veux).
 3. Touche-le une fois : l'appli s'ouvre et pose ses questions (taille, âge,
    poids, poids visé, rythme, pas, allergènes). Elle calcule tes objectifs.
 
@@ -15,7 +19,10 @@ Tes données vont dans `iCloud Drive/Scriptable/cuisine-180.json`. C'est ce
 fichier qu'il faut garder pour ne rien perdre ; le script, lui, se remplace
 sans risque.
 
-> Nouvelle version du script : remplace simplement `Cuisine 180.js` dans le
+> Le nom du script n'a pas d'importance (ce guide l'appelle « Cuisine 180 ») :
+> les Raccourcis le choisissent dans une liste.
+>
+> Nouvelle version du script : remplace simplement le fichier dans le
 > dossier Scriptable. Tes données ne bougent pas.
 
 ## 2. Le widget

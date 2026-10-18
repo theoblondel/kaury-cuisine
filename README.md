@@ -79,7 +79,7 @@ Un seul fichier, exécuté par [Scriptable](https://apps.apple.com/app/scriptabl
 > Dix minutes, une seule fois. Il faut un iPhone sous iOS 16 ou plus récent.
 
 1. **Installer Scriptable** depuis l'[App Store](https://apps.apple.com/app/scriptable/id1405459188) (gratuit), puis l'ouvrir une fois.
-2. **Télécharger `Cuisine 180.js`** depuis la [dernière version](https://github.com/theoblondel/kaury-cuisine/releases/latest), puis sur l'iPhone : **Partager → Enregistrer dans Fichiers → iCloud Drive → Scriptable**. Le fichier doit garder ce nom exact.
+2. **Télécharger `Cuisine.180.js`** depuis la [dernière version](https://github.com/theoblondel/kaury-cuisine/releases/latest), puis sur l'iPhone : **Partager → Enregistrer dans Fichiers → iCloud Drive → Scriptable**. GitHub remplace l'espace du nom par un point : renomme-le **`Cuisine 180`** dans Scriptable si tu veux, le nom ne change rien au fonctionnement.
 3. **Lancer le script** : dans Scriptable, toucher **Cuisine 180**. Il pose ses questions une fois (taille, âge, poids, poids visé, rythme, pas, allergènes) et calcule tes objectifs.
 4. **Ajouter le widget** : appui long sur l'écran d'accueil → **+** → **Scriptable**, puis appui long sur le widget → **Modifier le widget** :
 
@@ -90,7 +90,7 @@ Un seul fichier, exécuté par [Scriptable](https://apps.apple.com/app/scriptabl
 
 5. **Brancher Santé** (pas, poids, alerte du soir) et **le scanner de code-barres** : deux Raccourcis à créer, pas à pas dans **[INSTALLATION.md](INSTALLATION.md)**.
 
-**Mettre à jour** : remplacer `Cuisine 180.js` dans le dossier Scriptable. Tes données, dans `cuisine-180.json`, ne bougent pas.
+**Mettre à jour** : remplacer le script dans le dossier Scriptable (en gardant le même nom). Tes données, dans `cuisine-180.json`, ne bougent pas.
 
 ## Comment c'est calculé
 
@@ -133,7 +133,7 @@ Les tests tournent sans iPhone : `test/simulateur.mjs` imite les objets de Scrip
 
 **Cuisine 180** is an iPhone app, run by [Scriptable](https://apps.apple.com/app/scriptable/id1405459188), for **losing fat while keeping muscle**. Log meals in one tap from 38 ready-made, high-protein recipes (or any product from Open Food Facts), and it tracks calories, protein, steps from Apple Health, weight, waist size and body fat. It shows your daily streak, a weekly report, why you miss days, and when you will reach your goal. No account, no server, no subscription: your data stays in your iCloud. The interface is in French.
 
-Install: get Scriptable, save [`Cuisine 180.js`](https://github.com/theoblondel/kaury-cuisine/releases/latest) to *iCloud Drive › Scriptable*, run it once, then add a Scriptable widget pointing to it. Health and barcode shortcuts are described in [INSTALLATION.md](INSTALLATION.md).
+Install: get Scriptable, save [`Cuisine.180.js`](https://github.com/theoblondel/kaury-cuisine/releases/latest) to *iCloud Drive › Scriptable*, run it once, then add a Scriptable widget pointing to it. Health and barcode shortcuts are described in [INSTALLATION.md](INSTALLATION.md).
 
 ## Licence
 
